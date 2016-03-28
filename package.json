@@ -1,0 +1,28 @@
+{
+  "name": "enhanced-markdown-loader",
+  "version": "0.1.0",
+  "description": "A webpack markdown loader with YML front-matter, syntax highlighting and asset `require`ing",
+  "main": "index.js",
+  "scripts": {
+    "version": "git add -A"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vieron/enhanced-markdown-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "markdown"
+  ],
+  "author": "vieron",
+  "license": "MIT",
+  "dependencies": {
+    "highlight.js": "^9.2.0",
+    "html-loader": "^0.4.3",
+    "loader-utils": "^0.2.13",
+    "markdown-it": "^6.0.0",
+    "object-assign": "^4.0.1",
+    "yaml-front-matter": "^3.4.0"
+  }
+}
